@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  Name: Jayson Xu
+  Date: October 31st, 2024
+  Section: CSE 154 AB
+  This is the main HTML page for my CSGO Info Fetcher project, Creative Project 3.
+  It contains buttons for fetching various types of CSGO data using the CSGO API and
+  displays the fetched information dynamically.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+  <title>CSGO Info Fetcher</title>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/2560px-Washington_Huskies_logo.svg.png" alt="UW Seattle" class="logo">
+    <h1>CSGO Info Fetcher</h1>
+  </header>
+  <main>
+    <button id="fetch-weapons">Show Skins</button>
+    <button id="fetch-stickers">Show Stickers</button>
+    <button id="fetch-collections">Show Collections</button>
+    <button id="fetch-crates">Show Crates</button>
+    <button id="fetch-keys">Show Keys</button>
+    <button id="fetch-collectibles">Show Collectibles</button>
+    <button id="fetch-agents">Show Agents</button>
+    <button id="fetch-patches">Show Patches</button>
+    <button id="fetch-graffiti">Show Graffiti</button>
+    <button id="fetch-music-kits">Show Music Kits</button>
+    <div id="data-display"></div>
+  </main>
+  <footer>
+    <p>Data provided by the <a href="https://bymykel.github.io/CSGO-API/">CSGO API</a>
+      . Created by Jayson Xu.</p>
+    </footer>
+  </body>
+</html>
